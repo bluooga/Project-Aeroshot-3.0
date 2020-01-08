@@ -9,7 +9,22 @@ ModelImporter:
   - first:
       74: 5365974297113294127
     second: SnowMan|Walk
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BowTie
+    second: {fileID: 2100000, guid: 273fa25b802e86a4e9e7f6decfa669de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hat
+    second: {fileID: 2100000, guid: 6c56d12dda69ad1479b137699ad95bc4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Snow
+    second: {fileID: 2100000, guid: 9055897ddafe2ee4e9e05f4724793372, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
