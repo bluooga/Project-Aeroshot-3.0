@@ -66,40 +66,52 @@ Currently we are on build Alpha 3.4 Build 02 which contains all the things menti
 During our little journey we had our issues some small some big so heres a few that we faced during our development journey
 
 Problem #1: None of us have ever watched the Olympics
+
 Solution: Google
 
 Problem #2: arrows shoot to the side
+
 Solution: change the script and apply force to “transform.Right” instead “transform.Forward” Or rotate model in Blender and keep transform.Forward
 
 Problem #3: Sidetracking / distraction
+
 Solution: schedule time with everyone and set a day to meetup and work for a bit
 
 Problem #4: player is floating up
+
 Solution: change “Gravity” float variable from a positive value to a negative value
 
 Problem #5: Arrows Fly through the floor
+
 Solution: apply a Box Collider to the arrow Prefab
 
 Problem #6: Drawing on a computer (with a drawing tablet) is difficult
+
 Solution: Draw on paper, and scan the drawing to a jpg or png or pdf later
 
 Problem #7: Fabian keeps getting distracted
+
 Solution: Let him listen to hamilton while coding
 
 Problem #8: too many arrows lag the game
+
 Solution: add “Destroy(Arrow, 5)” to the “Bow” script, this will destroy the arrow instance after 5 seconds
 
 Problem #9: Arrows don’t stick into objects after hitting something
+
 Solution: add a condition that destroys the “Arrow” script and “Rigidbody” Component if the arrow collides with anything
 
 Problem #10: Arrows stick to each other if they collide mid air
 Solution: destroy other arrow instances when they collide or include it as a feature cuz it could me a cool tool
 
 Problem #11: Fabian Plays Hamilton at max Volume
+
 Solution: there is none he won’t turn it down
 
 Problem #12: Player can stand on arrows
+
 Solution: don’t fix it, use it
 
 Problem #13: Programmer went on vacation
+
 Solution: he took his laptop and has wifi
