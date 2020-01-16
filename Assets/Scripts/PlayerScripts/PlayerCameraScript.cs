@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class PlayerCameraScript : MonoBehaviour
 {
-
-    public float MouseSensitivity;
     public Transform PlayerBody;
 
     float XRotation;
@@ -19,8 +17,8 @@ public class PlayerCameraScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float XAxis = Input.GetAxis("Mouse X") * MouseSensitivity * Time.deltaTime;
-        float YAxis = Input.GetAxis("Mouse Y") * MouseSensitivity * Time.deltaTime;
+        float XAxis = Input.GetAxis("Mouse X") * PlayerOptions.MouseSensitivity * Time.deltaTime;
+        float YAxis = Input.GetAxis("Mouse Y") * PlayerOptions.MouseSensitivity * Time.deltaTime;
 
         XRotation -= YAxis;
         XRotation = Mathf.Clamp(XRotation, -90f, 90f);

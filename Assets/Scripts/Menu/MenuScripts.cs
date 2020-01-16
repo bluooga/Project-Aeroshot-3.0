@@ -82,6 +82,17 @@ public class MenuScripts : MonoBehaviour
                     FindObjectOfType<PauseManager>().TogglePause();
                 }
             }
+            else
+            if(Menu[i].name != "PauseMenu")
+            {
+                if (Menu[i].gameObject.activeInHierarchy)
+                {
+                    Menu[i].SetActive(false);
+                    Cursor.lockState = CursorLockMode.Locked;
+                    Cursor.visible = false;
+                    FindObjectOfType<PauseManager>().TogglePause();
+                }
+            }
         }
     }
 
