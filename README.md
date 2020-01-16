@@ -18,30 +18,30 @@ Game/Project Name: Project Aeroshot
 Current Project Build: 3.4 Alpha Build 02
 
 Features that we want to include:
-[X] Work in Progress or not complete [ / ] Done and Included In Current Build
+[] Work in Progress or not complete [X] Done and Included In Current Build
 
-[X] HD Textures and Models
-[X] Platformer Elements
-[ / ] Settings Menu
-[X] Sound Effects
-[ / ] Archery
-[ / ] Player Movement and Camera Control
-[X] Music
-[X] Puzzles
-[ / ] Tutorial
-[ / ] Main Menu
-[ / ] Pause Menu
+[] HD Textures and Models
+[] Platformer Elements
+[X] Settings Menu
+[ ] Sound Effects
+[X] Archery
+[X] Player Movement and Camera Control
+[] Music
+[] Puzzles
+[X] Tutorial
+[X] Main Menu
+[X] Pause Menu
 
 # Development Process
 We started by discussing what event in we should go for so of course none of us ever actually sitting down and watching the olympics we all sat down and did research on different events after researching and discussing which events seemed interesting to us we narrowed it down to the following events
 
-Archery
-Athletic Events
-Boxing
-Fencing
-Karate
-Taekwondo
-Weightlifting
+- Archery
+- Athletic Events
+- Boxing
+- Fencing
+- Karate
+- Taekwondo
+- Weightlifting
 
 After a few more talks and more than 0 arguments we agreed on Archery because as it stands Fabian may know quite a bit of C# his knowledge is also limited and he was unsure he could program Karate, Boxing, Fencing, or Taekwondo, which left us with Archery, Athletic events and Weightlifting.
 	
