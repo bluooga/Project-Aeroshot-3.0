@@ -62,10 +62,9 @@ After getting started Yesenia got to work on sketching a bow as well as enemies 
 
 We continued to come i and try to progress further but Josh and Fabian became stuck on what to add next
 > do we add stats or the bow?
-the question would continue to be asked for the next week while Yesenia made the bow sketch, at some point while sketching Yesenia drew a cute little snowman on her paper which fabian took a liking to and wasted no time entering Blender a free and powerful 3D Modeling and Animation Software and recreating the snowman sketch into 3D for use as an enemy for the game, this would coincidentally solve the question of 
-> bow or stats by replacing both options with 
 
-> I NEED TO GIVE THIS LIFE!!!
+the question would continue to be asked for the next week while Yesenia made the bow sketch, at some point while sketching Yesenia drew a cute little snowman on her paper which fabian took a liking to and wasted no time entering Blender a free and powerful 3D Modeling and Animation Software and recreating the snowman sketch into 3D for use as an enemy for the game, this would coincidentally solve the question of bow or stats by replacing both options with
+>I NEED TO GIVE THIS LIFE!!!
 
 and fabian got to work not on the bow or stats but adding a simple AI script for the Snowman and adding a bow and then stats in that order. And this would be Build: Alpha 2.0 build 3
 
